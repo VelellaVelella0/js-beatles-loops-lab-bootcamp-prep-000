@@ -20,7 +20,7 @@ function johnLennonFacts(array){
 
   do {
     array = array.unshift `!!!`
-  } while (array.length > 0 && maybeTrue())
+  } while (array && maybeTrue())
   return array
 
 }
