@@ -14,5 +14,12 @@ function johnLennonFacts(array){
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
 ]
+  function maybeTrue() {
+    return Math.random() >= 0.5
+  }
+
+  do {
+    array = array.unshift `!!!`
+  } while (array.length > 0 && maybeTrue())
 
 }
