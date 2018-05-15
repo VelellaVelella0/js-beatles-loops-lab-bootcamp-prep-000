@@ -7,3 +7,6 @@ return arrays
 
 }
 
+function johnLennonFacts (array){
+  
+}
